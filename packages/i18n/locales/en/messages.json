@@ -1,11 +1,11 @@
 {
   "extensionDescription": {
     "description": "Extension description",
-    "message": "Chrome extension boilerplate developed with Vite, React and Typescript"
+    "message": "Add and participate in community notes prediction markets on Twitter"
   },
   "extensionName": {
     "description": "Extension name",
-    "message": "Chrome extension boilerplate"
+    "message": "Community Notes"
   },
   "toggleTheme": {
     "message": "Toggle theme"
@@ -13,18 +13,22 @@
   "loading": {
     "message": "Loading..."
   },
-  "greeting": {
-    "description": "Greeting message",
-    "message": "Hello, My name is $NAME$",
+  "noteAdded": {
+    "description": "Confirmation when a note is added",
+    "message": "Note added successfully"
+  },
+  "predictionMarket": {
+    "description": "Prediction market status",
+    "message": "Market: $MARKET$",
     "placeholders": {
-      "name": {
+      "market": {
         "content": "$1",
-        "example": "John Doe"
+        "example": "Note accuracy prediction"
       }
     }
   },
-  "hello": {
-    "description": "Placeholder example",
-    "message": "Hello $1"
+  "voteStatus": {
+    "description": "Voting status message",
+    "message": "Your vote has been recorded"
   }
 }
